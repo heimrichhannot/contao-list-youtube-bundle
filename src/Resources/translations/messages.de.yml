@@ -1,0 +1,8 @@
+huh.list:
+  tl_list_config_element.field:
+    typeSelectorField.youtube:
+      name: YouTube Selektor Element
+      desc: Wählen Sie hier das Feld aus, welches den boolschen Selektor für das YouTube Feld enthält.
+    typeField.youtube:
+      name: YouTube Feld
+      desc: Wählen Sie hier das Feld aus, welches die ID des YouTube Video enthält.

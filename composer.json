@@ -1,0 +1,44 @@
+{
+  "name": "heimrichhannot/contao-list-youtube-bundle",
+  "type": "contao-bundle",
+  "description": "A bundle to providing youtube integration for list bundle.",
+  "keywords": [
+    "contao",
+    "youtube",
+    "reader-bundle",
+    "responsive",
+    "video",
+    "content"
+  ],
+  "license": "LGPL-3.0-or-later",
+  "require": {
+    "php": "^7.1",
+    "contao/core-bundle": "^4.4",
+    "heimrichhannot/contao-utils-bundle": "^2.10",
+    "heimrichhannot/contao-youtube-bundle": "^2.0",
+    "heimrichhannot/contao-list-bundle": "^1.0.0-beta68"
+  },
+  "require-dev": {
+    "contao/test-case": "^1.1",
+    "contao/manager-plugin": "^2.0",
+    "friendsofphp/php-cs-fixer": "^2.2",
+    "phpunit/phpunit": ">=6.0 <6.5",
+    "php-http/guzzle6-adapter": "^1.1",
+    "php-http/message-factory": "^1.0.2",
+    "php-coveralls/php-coveralls": "^2.0",
+    "symfony/phpunit-bridge": "^3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "HeimrichHannot\\ListYoutubeBundle": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "HeimrichHannot\\ListYoutubeBundle\\Test\\": "tests/"
+    }
+  },
+  "extra": {
+    "contao-manager-plugin": "HeimrichHannot\\ListYoutubeBundle\\ContaoManager\\Plugin"
+  }
+}
