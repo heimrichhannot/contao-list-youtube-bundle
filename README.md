@@ -1,4 +1,4 @@
-# Youtube List Bundle
+# List Youtube Bundle
 
 A bundle provides [YouTube Bundle](https://github.com/heimrichhannot/contao-youtube-bundle) integration for [List Bundle](https://github.com/heimrichhannot/contao-list-bundle).
 
