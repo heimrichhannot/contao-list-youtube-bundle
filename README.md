@@ -1,10 +1,10 @@
-# Youtube Reader Bundle
+# Youtube List Bundle
 
-A bundle provides [YouTube Bundle]() integration for [Reader Bundle]().
+A bundle provides [YouTube Bundle](https://github.com/heimrichhannot/contao-youtube-bundle) integration for [List Bundle](https://github.com/heimrichhannot/contao-list-bundle).
 
 ## Usage
 
-This bundle add a new config element you can use in your reader config.
+This bundle add a new config element you can use in your list config.
 
 ### Template
 
